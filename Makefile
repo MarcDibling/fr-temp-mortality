@@ -4,3 +4,7 @@ ingest-deaths:
 	uv run python -m frtm.ingest.insee_deaths
 ingest-meteo:
 	uv run python -m frtm.ingest.meteo
+silver:
+	uv run python -m frtm.silver.deaths
+	uv run python -m frtm.silver.weather
+all: ingest silver
