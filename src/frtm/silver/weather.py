@@ -24,6 +24,7 @@ MAX_STATIONS = 8
 MIN_STATIONS = 3            # if fewer pass, take the best ones down to this floor
 MAX_ALTI = 800              # metres; mountain summits do not represent where people live
 BAD_QUALITY = {"2"}    # Météo-France flags: 2 = doubtful, 9 = filtered out
+DONORS = {"92": "75", "93": "75"}  # used only if a département has no usable station at all
 
 TEMP_COLS = ["RR", "TN", "TX", "TM", "TNTXM"]
 HUM_COLS = ["UN", "UX", "UM"]
