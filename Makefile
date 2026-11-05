@@ -1,10 +1,15 @@
-.PHONY: ingest ingest-deaths ingest-meteo silver gold all
-ingest: ingest-deaths ingest-meteo
+.PHONY: ingest ingest-deaths ingest-meteo ingest-population silver gold all
+ingest: ingest-deaths ingest-meteo ingest-population
 ingest-deaths:
 	uv run python -m frtm.ingest.insee_deaths
 ingest-meteo:
 	uv run python -m frtm.ingest.meteo
+ingest-population:
+	uv run python -m frtm.ingest.insee_population
 silver:
 	uv run python -m frtm.silver.deaths
 	uv run python -m frtm.silver.weather
-all: ingest silver
+	uv run python -m frtm.silver.population
+gold:
+	uv run python -m frtm.gold.panel
+all: ingest silver gold

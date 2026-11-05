@@ -1,0 +1,10 @@
+{
+  "rows": 8145248,
+  "departements": 101,
+  "date_min": "1999-01-01",
+  "date_max": "2026-09-30",
+  "metro_rows_missing_tm": 2632,
+  "metro_rows_missing_pop": 0,
+  "deaths_total": 16196632,
+  "deaths_in_silver_same_scope": 16198551
+}

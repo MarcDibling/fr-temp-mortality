@@ -6,7 +6,10 @@ readme = "README.md"
 requires-python = ">=3.9"
 dependencies = [
     "duckdb>=1.4.5",
+    "fastexcel>=0.16.0",
+    "holidays>=0.83",
     "httpx>=0.28.1",
+    "openpyxl>=3.1.5",
     "pandera>=0.26.1",
     "polars>=1.36.1",
     "pyarrow>=21.0.0",
