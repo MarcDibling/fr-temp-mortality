@@ -29,8 +29,7 @@ def plot() -> None:
 
     fig, axes = plt.subplots(1, 3, figsize=(15, 4.8))
     # (a) 85+ overall curves, five départements
-    for dept, g in curves.filter(pl.col("age_band") == "85+").group_by("dept", maintain_order=True):
-        axes[0].plot(g["tm"], g["rr"], lw=1.6, label=NAMES.get(dept[0], dept[0]))
+    for dept, g in curves.filter((pl.col("age_band") == "85+") & pl.col("dept").is_in(list(NAMES))).group_by("dept", maintain_order=True):        axes[0].plot(g["tm"], g["rr"], lw=1.6, label=NAMES.get(dept[0], dept[0]))
     axes[0].axhline(1, color="black", lw=0.8); axes[0].set_ylim(0.8, 3); axes[0].set_xlim(-5, 32)
     axes[0].set_title("85+, overall RR over 21 days"); axes[0].set_xlabel("Daily mean temperature (°C)"); axes[0].set_ylabel("Relative risk vs MMT"); axes[0].legend(frameon=False, fontsize=8)
     # (b) Paris, all age bands with CI
@@ -48,8 +47,7 @@ def plot() -> None:
     fig.tight_layout(); FIG.mkdir(parents=True, exist_ok=True); fig.savefig(FIG / "dlnm_pilot_curves.png", dpi=150); plt.close(fig)
 
     pl.Config.set_tbl_rows(40); pl.Config.set_tbl_width_chars(200)
-    print(summ.with_columns(pl.col("dept").replace(NAMES)).select("dept", "age_band", "mmt", "mmt_pct", "p1", "rr_p1", "p99", "rr_p99", "rr_p99_lo", "rr_p99_hi", "phi"))
-
+    print(summ.filter(pl.col("dept").is_in(list(NAMES))).with_columns(pl.col("dept").replace(NAMES)).select("dept", "age_band", "mmt", "mmt_pct", "p1", "rr_p1", "p99", "rr_p99", "rr_p99_lo", "rr_p99_hi", "phi"))
 
 def plot_pooled() -> None:
     pooled = pl.read_csv(RES / "pooled_curves.csv")
