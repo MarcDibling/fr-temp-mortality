@@ -1,0 +1,2961 @@
+{
+  "dataset": "6569b51ae64326786e4e8e1a",
+  "downloaded_at": "2026-11-05T21:02:34+00:00",
+  "n_files": 422,
+  "files": [
+    {
+      "title": "QUOT_departement_01_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_01_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:18:46+00:00",
+      "bytes": 9288077,
+      "local_path": "data/bronze/meteo/Q_01_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_01_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_01_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-09-01T09:28:53+00:00",
+      "bytes": 4666829,
+      "local_path": "data/bronze/meteo/Q_01_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_01_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_01_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-29T06:54:02+00:00",
+      "bytes": 284472,
+      "local_path": "data/bronze/meteo/Q_01_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_01_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_01_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-29T06:55:17+00:00",
+      "bytes": 139263,
+      "local_path": "data/bronze/meteo/Q_01_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_02_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_02_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:18:50+00:00",
+      "bytes": 11262061,
+      "local_path": "data/bronze/meteo/Q_02_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_02_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_02_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:26:20+00:00",
+      "bytes": 3939047,
+      "local_path": "data/bronze/meteo/Q_02_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_02_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_02_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-29T06:54:02+00:00",
+      "bytes": 266930,
+      "local_path": "data/bronze/meteo/Q_02_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_02_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_02_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-30T06:53:40+00:00",
+      "bytes": 132837,
+      "local_path": "data/bronze/meteo/Q_02_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_03_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_03_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:18:55+00:00",
+      "bytes": 13794924,
+      "local_path": "data/bronze/meteo/Q_03_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_03_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_03_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:26:22+00:00",
+      "bytes": 6083097,
+      "local_path": "data/bronze/meteo/Q_03_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_03_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_03_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-29T06:54:03+00:00",
+      "bytes": 363983,
+      "local_path": "data/bronze/meteo/Q_03_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_03_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_03_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-29T06:55:18+00:00",
+      "bytes": 160250,
+      "local_path": "data/bronze/meteo/Q_03_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_04_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_04_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:18:58+00:00",
+      "bytes": 9641621,
+      "local_path": "data/bronze/meteo/Q_04_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_04_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_04_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:26:23+00:00",
+      "bytes": 4892199,
+      "local_path": "data/bronze/meteo/Q_04_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_04_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_04_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-28T06:55:44+00:00",
+      "bytes": 402419,
+      "local_path": "data/bronze/meteo/Q_04_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_04_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_04_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-29T06:55:18+00:00",
+      "bytes": 177906,
+      "local_path": "data/bronze/meteo/Q_04_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_05_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_05_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:19:01+00:00",
+      "bytes": 13279077,
+      "local_path": "data/bronze/meteo/Q_05_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_05_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_05_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:26:25+00:00",
+      "bytes": 6435501,
+      "local_path": "data/bronze/meteo/Q_05_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_05_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_05_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-29T06:54:04+00:00",
+      "bytes": 687207,
+      "local_path": "data/bronze/meteo/Q_05_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_05_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_05_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-29T06:55:19+00:00",
+      "bytes": 302333,
+      "local_path": "data/bronze/meteo/Q_05_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_06_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_06_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:19:06+00:00",
+      "bytes": 19504248,
+      "local_path": "data/bronze/meteo/Q_06_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_06_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_06_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-09-01T09:29:04+00:00",
+      "bytes": 9031474,
+      "local_path": "data/bronze/meteo/Q_06_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_06_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_06_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-28T06:55:45+00:00",
+      "bytes": 720627,
+      "local_path": "data/bronze/meteo/Q_06_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_06_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_06_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-30T06:53:42+00:00",
+      "bytes": 346762,
+      "local_path": "data/bronze/meteo/Q_06_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_07_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_07_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:19:11+00:00",
+      "bytes": 16944004,
+      "local_path": "data/bronze/meteo/Q_07_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_07_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_07_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:26:32+00:00",
+      "bytes": 9369782,
+      "local_path": "data/bronze/meteo/Q_07_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_07_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_07_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-30T06:52:28+00:00",
+      "bytes": 703385,
+      "local_path": "data/bronze/meteo/Q_07_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_07_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_07_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-29T06:55:19+00:00",
+      "bytes": 274505,
+      "local_path": "data/bronze/meteo/Q_07_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_08_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_08_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:19:14+00:00",
+      "bytes": 8412928,
+      "local_path": "data/bronze/meteo/Q_08_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_08_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_08_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:26:34+00:00",
+      "bytes": 3166734,
+      "local_path": "data/bronze/meteo/Q_08_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_08_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_08_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-29T06:54:05+00:00",
+      "bytes": 295166,
+      "local_path": "data/bronze/meteo/Q_08_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_08_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_08_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-30T06:53:42+00:00",
+      "bytes": 124403,
+      "local_path": "data/bronze/meteo/Q_08_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_09_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_09_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:19:17+00:00",
+      "bytes": 9962161,
+      "local_path": "data/bronze/meteo/Q_09_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_09_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_09_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:26:36+00:00",
+      "bytes": 4203365,
+      "local_path": "data/bronze/meteo/Q_09_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_09_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_09_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-30T06:52:28+00:00",
+      "bytes": 265855,
+      "local_path": "data/bronze/meteo/Q_09_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_09_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_09_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-29T06:55:20+00:00",
+      "bytes": 135851,
+      "local_path": "data/bronze/meteo/Q_09_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_10_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_10_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:19:20+00:00",
+      "bytes": 9754625,
+      "local_path": "data/bronze/meteo/Q_10_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_10_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_10_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-09-01T09:29:14+00:00",
+      "bytes": 3912693,
+      "local_path": "data/bronze/meteo/Q_10_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_10_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_10_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-29T06:54:06+00:00",
+      "bytes": 310265,
+      "local_path": "data/bronze/meteo/Q_10_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_10_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_10_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-30T06:53:43+00:00",
+      "bytes": 136982,
+      "local_path": "data/bronze/meteo/Q_10_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_11_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_11_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:19:25+00:00",
+      "bytes": 14732026,
+      "local_path": "data/bronze/meteo/Q_11_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_11_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_11_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:26:39+00:00",
+      "bytes": 6744803,
+      "local_path": "data/bronze/meteo/Q_11_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_11_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_11_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-30T06:52:30+00:00",
+      "bytes": 492381,
+      "local_path": "data/bronze/meteo/Q_11_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_11_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_11_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-30T06:53:43+00:00",
+      "bytes": 243611,
+      "local_path": "data/bronze/meteo/Q_11_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_12_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_12_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:19:29+00:00",
+      "bytes": 11602660,
+      "local_path": "data/bronze/meteo/Q_12_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_12_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_12_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:26:42+00:00",
+      "bytes": 5155104,
+      "local_path": "data/bronze/meteo/Q_12_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_12_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_12_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-30T06:52:31+00:00",
+      "bytes": 417456,
+      "local_path": "data/bronze/meteo/Q_12_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_12_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_12_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-30T06:53:43+00:00",
+      "bytes": 189431,
+      "local_path": "data/bronze/meteo/Q_12_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_13_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_13_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:19:33+00:00",
+      "bytes": 15293910,
+      "local_path": "data/bronze/meteo/Q_13_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_13_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_13_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:26:44+00:00",
+      "bytes": 7422569,
+      "local_path": "data/bronze/meteo/Q_13_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_13_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_13_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-29T06:54:08+00:00",
+      "bytes": 464703,
+      "local_path": "data/bronze/meteo/Q_13_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_13_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_13_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-29T06:55:21+00:00",
+      "bytes": 247219,
+      "local_path": "data/bronze/meteo/Q_13_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_14_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_14_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:19:37+00:00",
+      "bytes": 9767090,
+      "local_path": "data/bronze/meteo/Q_14_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_14_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_14_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:26:45+00:00",
+      "bytes": 4343500,
+      "local_path": "data/bronze/meteo/Q_14_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_14_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_14_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-30T06:52:33+00:00",
+      "bytes": 336572,
+      "local_path": "data/bronze/meteo/Q_14_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_14_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_14_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-30T06:53:44+00:00",
+      "bytes": 147007,
+      "local_path": "data/bronze/meteo/Q_14_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_15_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_15_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:19:42+00:00",
+      "bytes": 11205112,
+      "local_path": "data/bronze/meteo/Q_15_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_15_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_15_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:26:47+00:00",
+      "bytes": 5648520,
+      "local_path": "data/bronze/meteo/Q_15_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_15_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_15_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-30T06:52:34+00:00",
+      "bytes": 421925,
+      "local_path": "data/bronze/meteo/Q_15_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_15_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_15_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-28T06:57:05+00:00",
+      "bytes": 185352,
+      "local_path": "data/bronze/meteo/Q_15_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_16_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_16_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:19:45+00:00",
+      "bytes": 10427702,
+      "local_path": "data/bronze/meteo/Q_16_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_16_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_16_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:26:49+00:00",
+      "bytes": 6906624,
+      "local_path": "data/bronze/meteo/Q_16_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_16_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_16_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-29T06:54:10+00:00",
+      "bytes": 240612,
+      "local_path": "data/bronze/meteo/Q_16_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_16_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_16_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-30T06:53:44+00:00",
+      "bytes": 133009,
+      "local_path": "data/bronze/meteo/Q_16_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_17_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_17_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:19:48+00:00",
+      "bytes": 10938810,
+      "local_path": "data/bronze/meteo/Q_17_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_17_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_17_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:26:52+00:00",
+      "bytes": 5319308,
+      "local_path": "data/bronze/meteo/Q_17_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_17_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_17_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-29T06:54:11+00:00",
+      "bytes": 321386,
+      "local_path": "data/bronze/meteo/Q_17_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_17_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_17_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-29T06:55:22+00:00",
+      "bytes": 174316,
+      "local_path": "data/bronze/meteo/Q_17_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_18_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_18_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:19:53+00:00",
+      "bytes": 12310403,
+      "local_path": "data/bronze/meteo/Q_18_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_18_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_18_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:26:54+00:00",
+      "bytes": 6449652,
+      "local_path": "data/bronze/meteo/Q_18_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_18_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_18_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-30T06:52:35+00:00",
+      "bytes": 360613,
+      "local_path": "data/bronze/meteo/Q_18_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_18_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_18_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-29T06:55:23+00:00",
+      "bytes": 160551,
+      "local_path": "data/bronze/meteo/Q_18_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_19_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_19_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:19:56+00:00",
+      "bytes": 10121453,
+      "local_path": "data/bronze/meteo/Q_19_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_19_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_19_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:26:57+00:00",
+      "bytes": 4435655,
+      "local_path": "data/bronze/meteo/Q_19_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_19_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_19_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-29T06:54:12+00:00",
+      "bytes": 348199,
+      "local_path": "data/bronze/meteo/Q_19_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_19_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_19_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-30T06:53:45+00:00",
+      "bytes": 164154,
+      "local_path": "data/bronze/meteo/Q_19_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_20_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_20_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:20:01+00:00",
+      "bytes": 21325621,
+      "local_path": "data/bronze/meteo/Q_20_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_20_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_20_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:27:00+00:00",
+      "bytes": 11111619,
+      "local_path": "data/bronze/meteo/Q_20_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_20_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_20_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-30T06:52:36+00:00",
+      "bytes": 1100718,
+      "local_path": "data/bronze/meteo/Q_20_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_20_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_20_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-29T06:55:26+00:00",
+      "bytes": 549606,
+      "local_path": "data/bronze/meteo/Q_20_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_21_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_21_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:20:06+00:00",
+      "bytes": 11961042,
+      "local_path": "data/bronze/meteo/Q_21_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_21_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_21_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:27:02+00:00",
+      "bytes": 5719102,
+      "local_path": "data/bronze/meteo/Q_21_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_21_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_21_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-30T06:52:36+00:00",
+      "bytes": 409463,
+      "local_path": "data/bronze/meteo/Q_21_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_21_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_21_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-29T06:55:26+00:00",
+      "bytes": 176323,
+      "local_path": "data/bronze/meteo/Q_21_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_22_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_22_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:20:09+00:00",
+      "bytes": 11413015,
+      "local_path": "data/bronze/meteo/Q_22_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_22_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_22_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:27:03+00:00",
+      "bytes": 4928612,
+      "local_path": "data/bronze/meteo/Q_22_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_22_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_22_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-29T06:54:14+00:00",
+      "bytes": 391966,
+      "local_path": "data/bronze/meteo/Q_22_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_22_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_22_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-29T06:55:26+00:00",
+      "bytes": 198053,
+      "local_path": "data/bronze/meteo/Q_22_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_23_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_23_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:20:11+00:00",
+      "bytes": 9029644,
+      "local_path": "data/bronze/meteo/Q_23_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_23_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_23_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:27:06+00:00",
+      "bytes": 4726501,
+      "local_path": "data/bronze/meteo/Q_23_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_23_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_23_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-29T06:54:14+00:00",
+      "bytes": 323388,
+      "local_path": "data/bronze/meteo/Q_23_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_23_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_23_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-29T06:55:27+00:00",
+      "bytes": 145089,
+      "local_path": "data/bronze/meteo/Q_23_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_24_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_24_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:20:14+00:00",
+      "bytes": 9114240,
+      "local_path": "data/bronze/meteo/Q_24_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_24_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_24_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:27:08+00:00",
+      "bytes": 4503959,
+      "local_path": "data/bronze/meteo/Q_24_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_24_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_24_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-30T06:52:37+00:00",
+      "bytes": 279279,
+      "local_path": "data/bronze/meteo/Q_24_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_24_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_24_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-30T06:53:47+00:00",
+      "bytes": 140752,
+      "local_path": "data/bronze/meteo/Q_24_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_25_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_25_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:20:18+00:00",
+      "bytes": 10380741,
+      "local_path": "data/bronze/meteo/Q_25_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_25_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_25_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:27:10+00:00",
+      "bytes": 4496567,
+      "local_path": "data/bronze/meteo/Q_25_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_25_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_25_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-30T06:52:38+00:00",
+      "bytes": 379997,
+      "local_path": "data/bronze/meteo/Q_25_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_25_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_25_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-29T06:55:27+00:00",
+      "bytes": 161819,
+      "local_path": "data/bronze/meteo/Q_25_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_26_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_26_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:20:23+00:00",
+      "bytes": 16293770,
+      "local_path": "data/bronze/meteo/Q_26_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_26_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_26_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:27:14+00:00",
+      "bytes": 10688923,
+      "local_path": "data/bronze/meteo/Q_26_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_26_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_26_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-30T06:52:38+00:00",
+      "bytes": 532030,
+      "local_path": "data/bronze/meteo/Q_26_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_26_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_26_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-28T06:57:08+00:00",
+      "bytes": 249775,
+      "local_path": "data/bronze/meteo/Q_26_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_27_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_27_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:20:25+00:00",
+      "bytes": 6635381,
+      "local_path": "data/bronze/meteo/Q_27_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_27_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_27_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:27:15+00:00",
+      "bytes": 2655248,
+      "local_path": "data/bronze/meteo/Q_27_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_27_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_27_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-30T06:52:39+00:00",
+      "bytes": 162058,
+      "local_path": "data/bronze/meteo/Q_27_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_27_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_27_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-29T06:55:28+00:00",
+      "bytes": 80906,
+      "local_path": "data/bronze/meteo/Q_27_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_28_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_28_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:20:28+00:00",
+      "bytes": 9520722,
+      "local_path": "data/bronze/meteo/Q_28_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_28_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_28_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:27:16+00:00",
+      "bytes": 5043218,
+      "local_path": "data/bronze/meteo/Q_28_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_28_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_28_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-30T06:52:39+00:00",
+      "bytes": 308069,
+      "local_path": "data/bronze/meteo/Q_28_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_28_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_28_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-30T06:53:48+00:00",
+      "bytes": 130967,
+      "local_path": "data/bronze/meteo/Q_28_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_29_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_29_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:20:34+00:00",
+      "bytes": 15496940,
+      "local_path": "data/bronze/meteo/Q_29_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_29_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_29_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:27:18+00:00",
+      "bytes": 7408982,
+      "local_path": "data/bronze/meteo/Q_29_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_29_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_29_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-30T06:52:41+00:00",
+      "bytes": 545467,
+      "local_path": "data/bronze/meteo/Q_29_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_29_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_29_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-29T06:55:28+00:00",
+      "bytes": 289221,
+      "local_path": "data/bronze/meteo/Q_29_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_30_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_30_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:20:39+00:00",
+      "bytes": 17485229,
+      "local_path": "data/bronze/meteo/Q_30_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_30_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_30_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:27:21+00:00",
+      "bytes": 6986567,
+      "local_path": "data/bronze/meteo/Q_30_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_30_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_30_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-30T06:52:41+00:00",
+      "bytes": 547113,
+      "local_path": "data/bronze/meteo/Q_30_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_30_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_30_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-29T06:55:29+00:00",
+      "bytes": 263782,
+      "local_path": "data/bronze/meteo/Q_30_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_31_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_31_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:20:44+00:00",
+      "bytes": 9091639,
+      "local_path": "data/bronze/meteo/Q_31_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_31_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_31_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:27:23+00:00",
+      "bytes": 4140035,
+      "local_path": "data/bronze/meteo/Q_31_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_31_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_31_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-30T06:52:42+00:00",
+      "bytes": 348358,
+      "local_path": "data/bronze/meteo/Q_31_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_31_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_31_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-29T06:55:29+00:00",
+      "bytes": 175659,
+      "local_path": "data/bronze/meteo/Q_31_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_32_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_32_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:20:47+00:00",
+      "bytes": 8201762,
+      "local_path": "data/bronze/meteo/Q_32_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_32_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_32_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:27:25+00:00",
+      "bytes": 3636236,
+      "local_path": "data/bronze/meteo/Q_32_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_32_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_32_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-30T06:52:42+00:00",
+      "bytes": 269428,
+      "local_path": "data/bronze/meteo/Q_32_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_32_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_32_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-28T06:57:10+00:00",
+      "bytes": 130320,
+      "local_path": "data/bronze/meteo/Q_32_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_33_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_33_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:20:52+00:00",
+      "bytes": 16345442,
+      "local_path": "data/bronze/meteo/Q_33_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_33_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_33_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:27:27+00:00",
+      "bytes": 7627332,
+      "local_path": "data/bronze/meteo/Q_33_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_33_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_33_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-29T06:54:20+00:00",
+      "bytes": 436362,
+      "local_path": "data/bronze/meteo/Q_33_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_33_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_33_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-30T06:53:50+00:00",
+      "bytes": 245573,
+      "local_path": "data/bronze/meteo/Q_33_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_34_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_34_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:20:58+00:00",
+      "bytes": 15725919,
+      "local_path": "data/bronze/meteo/Q_34_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_34_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_34_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:27:29+00:00",
+      "bytes": 6528005,
+      "local_path": "data/bronze/meteo/Q_34_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_34_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_34_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-29T06:54:20+00:00",
+      "bytes": 576249,
+      "local_path": "data/bronze/meteo/Q_34_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_34_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_34_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-30T06:53:50+00:00",
+      "bytes": 305421,
+      "local_path": "data/bronze/meteo/Q_34_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_35_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_35_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:21:02+00:00",
+      "bytes": 9836080,
+      "local_path": "data/bronze/meteo/Q_35_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_35_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_35_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:27:31+00:00",
+      "bytes": 4941101,
+      "local_path": "data/bronze/meteo/Q_35_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_35_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_35_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-30T06:52:43+00:00",
+      "bytes": 343338,
+      "local_path": "data/bronze/meteo/Q_35_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_35_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_35_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-29T06:55:30+00:00",
+      "bytes": 171737,
+      "local_path": "data/bronze/meteo/Q_35_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_36_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_36_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:21:05+00:00",
+      "bytes": 9861841,
+      "local_path": "data/bronze/meteo/Q_36_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_36_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_36_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:27:32+00:00",
+      "bytes": 5435319,
+      "local_path": "data/bronze/meteo/Q_36_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_36_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_36_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-28T06:55:59+00:00",
+      "bytes": 318835,
+      "local_path": "data/bronze/meteo/Q_36_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_36_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_36_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-29T06:55:30+00:00",
+      "bytes": 144121,
+      "local_path": "data/bronze/meteo/Q_36_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_37_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_37_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:21:09+00:00",
+      "bytes": 9311314,
+      "local_path": "data/bronze/meteo/Q_37_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_37_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_37_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:27:34+00:00",
+      "bytes": 5463231,
+      "local_path": "data/bronze/meteo/Q_37_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_37_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_37_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-29T06:54:21+00:00",
+      "bytes": 297409,
+      "local_path": "data/bronze/meteo/Q_37_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_37_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_37_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-29T06:55:31+00:00",
+      "bytes": 162278,
+      "local_path": "data/bronze/meteo/Q_37_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_38_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_38_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:21:16+00:00",
+      "bytes": 17939821,
+      "local_path": "data/bronze/meteo/Q_38_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_38_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_38_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:27:37+00:00",
+      "bytes": 7132091,
+      "local_path": "data/bronze/meteo/Q_38_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_38_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_38_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-29T06:54:22+00:00",
+      "bytes": 841947,
+      "local_path": "data/bronze/meteo/Q_38_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_38_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_38_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-28T06:57:13+00:00",
+      "bytes": 340661,
+      "local_path": "data/bronze/meteo/Q_38_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_39_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_39_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:21:18+00:00",
+      "bytes": 9083757,
+      "local_path": "data/bronze/meteo/Q_39_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_39_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_39_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:27:40+00:00",
+      "bytes": 4145982,
+      "local_path": "data/bronze/meteo/Q_39_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_39_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_39_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-28T06:56:01+00:00",
+      "bytes": 263837,
+      "local_path": "data/bronze/meteo/Q_39_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_39_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_39_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-29T06:55:32+00:00",
+      "bytes": 131051,
+      "local_path": "data/bronze/meteo/Q_39_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_40_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_40_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:21:22+00:00",
+      "bytes": 13098915,
+      "local_path": "data/bronze/meteo/Q_40_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_40_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_40_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:27:41+00:00",
+      "bytes": 5448774,
+      "local_path": "data/bronze/meteo/Q_40_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_40_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_40_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-29T06:54:23+00:00",
+      "bytes": 355484,
+      "local_path": "data/bronze/meteo/Q_40_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_40_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_40_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-28T06:57:13+00:00",
+      "bytes": 198524,
+      "local_path": "data/bronze/meteo/Q_40_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_41_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_41_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:21:25+00:00",
+      "bytes": 6566033,
+      "local_path": "data/bronze/meteo/Q_41_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_41_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_41_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:27:42+00:00",
+      "bytes": 3437804,
+      "local_path": "data/bronze/meteo/Q_41_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_41_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_41_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-29T06:54:23+00:00",
+      "bytes": 228652,
+      "local_path": "data/bronze/meteo/Q_41_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_41_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_41_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-29T06:55:32+00:00",
+      "bytes": 111755,
+      "local_path": "data/bronze/meteo/Q_41_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_42_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_42_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-09-01T09:22:54+00:00",
+      "bytes": 13940329,
+      "local_path": "data/bronze/meteo/Q_42_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_42_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_42_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:27:44+00:00",
+      "bytes": 7157180,
+      "local_path": "data/bronze/meteo/Q_42_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_42_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_42_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-29T06:54:24+00:00",
+      "bytes": 457963,
+      "local_path": "data/bronze/meteo/Q_42_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_42_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_42_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-28T06:57:14+00:00",
+      "bytes": 181776,
+      "local_path": "data/bronze/meteo/Q_42_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_43_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_43_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:21:34+00:00",
+      "bytes": 11243242,
+      "local_path": "data/bronze/meteo/Q_43_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_43_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_43_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:27:46+00:00",
+      "bytes": 6090673,
+      "local_path": "data/bronze/meteo/Q_43_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_43_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_43_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-29T06:54:25+00:00",
+      "bytes": 456560,
+      "local_path": "data/bronze/meteo/Q_43_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_43_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_43_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-30T06:53:53+00:00",
+      "bytes": 200757,
+      "local_path": "data/bronze/meteo/Q_43_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_44_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_44_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-09-01T09:23:00+00:00",
+      "bytes": 7635621,
+      "local_path": "data/bronze/meteo/Q_44_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_44_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_44_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:27:47+00:00",
+      "bytes": 3580172,
+      "local_path": "data/bronze/meteo/Q_44_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_44_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_44_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-30T06:52:47+00:00",
+      "bytes": 272543,
+      "local_path": "data/bronze/meteo/Q_44_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_44_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_44_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-28T06:57:15+00:00",
+      "bytes": 116739,
+      "local_path": "data/bronze/meteo/Q_44_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_45_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_45_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:21:38+00:00",
+      "bytes": 7084860,
+      "local_path": "data/bronze/meteo/Q_45_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_45_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_45_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:27:48+00:00",
+      "bytes": 2631944,
+      "local_path": "data/bronze/meteo/Q_45_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_45_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_45_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-30T06:52:48+00:00",
+      "bytes": 186962,
+      "local_path": "data/bronze/meteo/Q_45_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_45_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_45_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-29T06:55:33+00:00",
+      "bytes": 82484,
+      "local_path": "data/bronze/meteo/Q_45_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_46_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_46_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:21:42+00:00",
+      "bytes": 7122268,
+      "local_path": "data/bronze/meteo/Q_46_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_46_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_46_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:27:50+00:00",
+      "bytes": 4358345,
+      "local_path": "data/bronze/meteo/Q_46_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_46_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_46_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-30T06:52:48+00:00",
+      "bytes": 292132,
+      "local_path": "data/bronze/meteo/Q_46_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_46_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_46_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-29T06:55:34+00:00",
+      "bytes": 131028,
+      "local_path": "data/bronze/meteo/Q_46_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_47_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_47_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:21:45+00:00",
+      "bytes": 8647764,
+      "local_path": "data/bronze/meteo/Q_47_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_47_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_47_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:27:53+00:00",
+      "bytes": 3719264,
+      "local_path": "data/bronze/meteo/Q_47_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_47_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_47_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-30T06:52:48+00:00",
+      "bytes": 261738,
+      "local_path": "data/bronze/meteo/Q_47_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_47_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_47_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-28T06:57:16+00:00",
+      "bytes": 132014,
+      "local_path": "data/bronze/meteo/Q_47_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_48_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_48_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:21:49+00:00",
+      "bytes": 10894239,
+      "local_path": "data/bronze/meteo/Q_48_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_48_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_48_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:27:54+00:00",
+      "bytes": 4965614,
+      "local_path": "data/bronze/meteo/Q_48_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_48_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_48_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-30T06:52:49+00:00",
+      "bytes": 474602,
+      "local_path": "data/bronze/meteo/Q_48_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_48_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_48_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-29T06:55:34+00:00",
+      "bytes": 188440,
+      "local_path": "data/bronze/meteo/Q_48_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_49_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_49_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:21:51+00:00",
+      "bytes": 8697462,
+      "local_path": "data/bronze/meteo/Q_49_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_49_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_49_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:27:56+00:00",
+      "bytes": 4205284,
+      "local_path": "data/bronze/meteo/Q_49_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_49_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_49_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-29T06:54:27+00:00",
+      "bytes": 338676,
+      "local_path": "data/bronze/meteo/Q_49_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_49_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_49_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-29T06:55:35+00:00",
+      "bytes": 162232,
+      "local_path": "data/bronze/meteo/Q_49_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_50_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_50_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:21:56+00:00",
+      "bytes": 9699736,
+      "local_path": "data/bronze/meteo/Q_50_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_50_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_50_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:27:58+00:00",
+      "bytes": 4447613,
+      "local_path": "data/bronze/meteo/Q_50_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_50_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_50_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-29T06:54:27+00:00",
+      "bytes": 407952,
+      "local_path": "data/bronze/meteo/Q_50_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_50_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_50_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-30T06:53:55+00:00",
+      "bytes": 158282,
+      "local_path": "data/bronze/meteo/Q_50_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_51_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_51_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:21:59+00:00",
+      "bytes": 11649367,
+      "local_path": "data/bronze/meteo/Q_51_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_51_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_51_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:27:59+00:00",
+      "bytes": 6221266,
+      "local_path": "data/bronze/meteo/Q_51_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_51_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_51_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-29T06:54:28+00:00",
+      "bytes": 278554,
+      "local_path": "data/bronze/meteo/Q_51_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_51_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_51_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-29T06:55:35+00:00",
+      "bytes": 148051,
+      "local_path": "data/bronze/meteo/Q_51_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_52_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_52_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:22:02+00:00",
+      "bytes": 9317430,
+      "local_path": "data/bronze/meteo/Q_52_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_52_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_52_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:28:01+00:00",
+      "bytes": 4693207,
+      "local_path": "data/bronze/meteo/Q_52_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_52_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_52_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-29T06:54:28+00:00",
+      "bytes": 354557,
+      "local_path": "data/bronze/meteo/Q_52_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_52_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_52_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-29T06:55:35+00:00",
+      "bytes": 149957,
+      "local_path": "data/bronze/meteo/Q_52_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_53_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_53_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:22:04+00:00",
+      "bytes": 6948775,
+      "local_path": "data/bronze/meteo/Q_53_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_53_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_53_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:28:03+00:00",
+      "bytes": 3073437,
+      "local_path": "data/bronze/meteo/Q_53_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_53_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_53_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-30T06:52:51+00:00",
+      "bytes": 202349,
+      "local_path": "data/bronze/meteo/Q_53_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_53_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_53_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-29T06:55:36+00:00",
+      "bytes": 92186,
+      "local_path": "data/bronze/meteo/Q_53_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_54_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_54_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:22:06+00:00",
+      "bytes": 6489658,
+      "local_path": "data/bronze/meteo/Q_54_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_54_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_54_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:28:04+00:00",
+      "bytes": 3333782,
+      "local_path": "data/bronze/meteo/Q_54_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_54_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_54_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-28T06:56:08+00:00",
+      "bytes": 239471,
+      "local_path": "data/bronze/meteo/Q_54_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_54_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_54_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-28T06:57:18+00:00",
+      "bytes": 129568,
+      "local_path": "data/bronze/meteo/Q_54_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_55_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_55_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:22:09+00:00",
+      "bytes": 7593450,
+      "local_path": "data/bronze/meteo/Q_55_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_55_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_55_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:28:05+00:00",
+      "bytes": 2859110,
+      "local_path": "data/bronze/meteo/Q_55_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_55_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_55_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-30T06:52:52+00:00",
+      "bytes": 321033,
+      "local_path": "data/bronze/meteo/Q_55_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_55_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_55_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-29T06:55:36+00:00",
+      "bytes": 154025,
+      "local_path": "data/bronze/meteo/Q_55_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_56_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_56_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:22:14+00:00",
+      "bytes": 12601316,
+      "local_path": "data/bronze/meteo/Q_56_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_56_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_56_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:28:07+00:00",
+      "bytes": 5812854,
+      "local_path": "data/bronze/meteo/Q_56_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_56_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_56_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-28T06:56:09+00:00",
+      "bytes": 391018,
+      "local_path": "data/bronze/meteo/Q_56_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_56_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_56_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-29T06:55:36+00:00",
+      "bytes": 210444,
+      "local_path": "data/bronze/meteo/Q_56_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_57_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_57_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:22:18+00:00",
+      "bytes": 7885632,
+      "local_path": "data/bronze/meteo/Q_57_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_57_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_57_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:28:09+00:00",
+      "bytes": 4415456,
+      "local_path": "data/bronze/meteo/Q_57_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_57_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_57_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-30T06:52:53+00:00",
+      "bytes": 399918,
+      "local_path": "data/bronze/meteo/Q_57_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_57_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_57_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-29T06:55:37+00:00",
+      "bytes": 178697,
+      "local_path": "data/bronze/meteo/Q_57_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_58_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_58_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:22:21+00:00",
+      "bytes": 10343090,
+      "local_path": "data/bronze/meteo/Q_58_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_58_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_58_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:28:11+00:00",
+      "bytes": 5160602,
+      "local_path": "data/bronze/meteo/Q_58_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_58_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_58_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-30T06:52:53+00:00",
+      "bytes": 299263,
+      "local_path": "data/bronze/meteo/Q_58_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_58_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_58_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-30T06:53:58+00:00",
+      "bytes": 126081,
+      "local_path": "data/bronze/meteo/Q_58_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_59_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_59_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:22:23+00:00",
+      "bytes": 7573737,
+      "local_path": "data/bronze/meteo/Q_59_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_59_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_59_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:28:13+00:00",
+      "bytes": 2812830,
+      "local_path": "data/bronze/meteo/Q_59_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_59_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_59_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-28T06:56:10+00:00",
+      "bytes": 201034,
+      "local_path": "data/bronze/meteo/Q_59_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_59_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_59_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-28T06:57:19+00:00",
+      "bytes": 107682,
+      "local_path": "data/bronze/meteo/Q_59_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_60_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_60_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:22:27+00:00",
+      "bytes": 8889171,
+      "local_path": "data/bronze/meteo/Q_60_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_60_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_60_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:28:16+00:00",
+      "bytes": 4045558,
+      "local_path": "data/bronze/meteo/Q_60_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_60_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_60_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-29T06:54:31+00:00",
+      "bytes": 297226,
+      "local_path": "data/bronze/meteo/Q_60_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_60_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_60_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-29T06:55:38+00:00",
+      "bytes": 152329,
+      "local_path": "data/bronze/meteo/Q_60_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_61_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_61_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:22:29+00:00",
+      "bytes": 9696914,
+      "local_path": "data/bronze/meteo/Q_61_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_61_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_61_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:28:17+00:00",
+      "bytes": 4134584,
+      "local_path": "data/bronze/meteo/Q_61_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_61_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_61_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-29T06:54:32+00:00",
+      "bytes": 322356,
+      "local_path": "data/bronze/meteo/Q_61_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_61_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_61_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-29T06:55:38+00:00",
+      "bytes": 145301,
+      "local_path": "data/bronze/meteo/Q_61_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_62_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_62_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:22:34+00:00",
+      "bytes": 9020063,
+      "local_path": "data/bronze/meteo/Q_62_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_62_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_62_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:28:18+00:00",
+      "bytes": 3564346,
+      "local_path": "data/bronze/meteo/Q_62_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_62_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_62_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-30T06:52:54+00:00",
+      "bytes": 305305,
+      "local_path": "data/bronze/meteo/Q_62_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_62_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_62_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-29T06:55:38+00:00",
+      "bytes": 167377,
+      "local_path": "data/bronze/meteo/Q_62_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_63_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_63_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:22:39+00:00",
+      "bytes": 16299664,
+      "local_path": "data/bronze/meteo/Q_63_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_63_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_63_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:28:20+00:00",
+      "bytes": 7552876,
+      "local_path": "data/bronze/meteo/Q_63_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_63_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_63_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-30T06:52:55+00:00",
+      "bytes": 604066,
+      "local_path": "data/bronze/meteo/Q_63_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_63_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_63_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-30T06:54:00+00:00",
+      "bytes": 289276,
+      "local_path": "data/bronze/meteo/Q_63_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_64_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_64_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:22:42+00:00",
+      "bytes": 13912150,
+      "local_path": "data/bronze/meteo/Q_64_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_64_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_64_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:28:23+00:00",
+      "bytes": 6499279,
+      "local_path": "data/bronze/meteo/Q_64_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_64_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_64_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-29T06:54:33+00:00",
+      "bytes": 538828,
+      "local_path": "data/bronze/meteo/Q_64_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_64_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_64_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-29T06:55:39+00:00",
+      "bytes": 254116,
+      "local_path": "data/bronze/meteo/Q_64_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_65_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_65_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:22:47+00:00",
+      "bytes": 10980785,
+      "local_path": "data/bronze/meteo/Q_65_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_65_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_65_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:28:25+00:00",
+      "bytes": 4533086,
+      "local_path": "data/bronze/meteo/Q_65_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_65_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_65_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-30T06:52:56+00:00",
+      "bytes": 398874,
+      "local_path": "data/bronze/meteo/Q_65_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_65_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_65_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-29T06:55:40+00:00",
+      "bytes": 192184,
+      "local_path": "data/bronze/meteo/Q_65_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_66_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_66_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:22:50+00:00",
+      "bytes": 13916823,
+      "local_path": "data/bronze/meteo/Q_66_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_66_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_66_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:28:27+00:00",
+      "bytes": 6718131,
+      "local_path": "data/bronze/meteo/Q_66_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_66_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_66_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-29T06:54:34+00:00",
+      "bytes": 470290,
+      "local_path": "data/bronze/meteo/Q_66_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_66_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_66_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-29T06:55:40+00:00",
+      "bytes": 250866,
+      "local_path": "data/bronze/meteo/Q_66_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_67_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_67_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:22:53+00:00",
+      "bytes": 9093862,
+      "local_path": "data/bronze/meteo/Q_67_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_67_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_67_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:28:28+00:00",
+      "bytes": 4071861,
+      "local_path": "data/bronze/meteo/Q_67_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_67_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_67_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-30T06:52:57+00:00",
+      "bytes": 309216,
+      "local_path": "data/bronze/meteo/Q_67_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_67_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_67_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-30T06:54:01+00:00",
+      "bytes": 135061,
+      "local_path": "data/bronze/meteo/Q_67_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_68_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_68_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:22:57+00:00",
+      "bytes": 11297879,
+      "local_path": "data/bronze/meteo/Q_68_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_68_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_68_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-09-01T09:31:22+00:00",
+      "bytes": 6052844,
+      "local_path": "data/bronze/meteo/Q_68_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_68_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_68_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-29T06:54:34+00:00",
+      "bytes": 350788,
+      "local_path": "data/bronze/meteo/Q_68_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_68_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_68_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-28T06:57:22+00:00",
+      "bytes": 168263,
+      "local_path": "data/bronze/meteo/Q_68_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_69_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_69_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:23:01+00:00",
+      "bytes": 12489605,
+      "local_path": "data/bronze/meteo/Q_69_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_69_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_69_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:28:31+00:00",
+      "bytes": 5248525,
+      "local_path": "data/bronze/meteo/Q_69_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_69_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_69_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-30T06:52:57+00:00",
+      "bytes": 327471,
+      "local_path": "data/bronze/meteo/Q_69_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_69_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_69_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-28T06:57:23+00:00",
+      "bytes": 163134,
+      "local_path": "data/bronze/meteo/Q_69_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_70_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_70_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:23:03+00:00",
+      "bytes": 8767053,
+      "local_path": "data/bronze/meteo/Q_70_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_70_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_70_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:28:33+00:00",
+      "bytes": 4584950,
+      "local_path": "data/bronze/meteo/Q_70_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_70_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_70_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-30T06:52:58+00:00",
+      "bytes": 296368,
+      "local_path": "data/bronze/meteo/Q_70_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_70_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_70_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-29T06:55:41+00:00",
+      "bytes": 141967,
+      "local_path": "data/bronze/meteo/Q_70_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_71_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_71_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:23:07+00:00",
+      "bytes": 15951976,
+      "local_path": "data/bronze/meteo/Q_71_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_71_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_71_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:28:35+00:00",
+      "bytes": 7441638,
+      "local_path": "data/bronze/meteo/Q_71_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_71_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_71_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-30T06:52:59+00:00",
+      "bytes": 353965,
+      "local_path": "data/bronze/meteo/Q_71_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_71_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_71_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-29T06:55:42+00:00",
+      "bytes": 169337,
+      "local_path": "data/bronze/meteo/Q_71_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_72_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_72_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:23:10+00:00",
+      "bytes": 7682400,
+      "local_path": "data/bronze/meteo/Q_72_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_72_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_72_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:28:36+00:00",
+      "bytes": 2896149,
+      "local_path": "data/bronze/meteo/Q_72_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_72_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_72_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-30T06:52:59+00:00",
+      "bytes": 293960,
+      "local_path": "data/bronze/meteo/Q_72_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_72_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_72_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-29T06:55:42+00:00",
+      "bytes": 117664,
+      "local_path": "data/bronze/meteo/Q_72_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_73_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_73_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:23:16+00:00",
+      "bytes": 21354467,
+      "local_path": "data/bronze/meteo/Q_73_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_73_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_73_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:28:39+00:00",
+      "bytes": 10857539,
+      "local_path": "data/bronze/meteo/Q_73_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_73_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_73_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-30T06:53:00+00:00",
+      "bytes": 875006,
+      "local_path": "data/bronze/meteo/Q_73_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_73_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_73_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-29T06:55:42+00:00",
+      "bytes": 410483,
+      "local_path": "data/bronze/meteo/Q_73_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_74_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_74_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:23:22+00:00",
+      "bytes": 16005404,
+      "local_path": "data/bronze/meteo/Q_74_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_74_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_74_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:28:41+00:00",
+      "bytes": 6807999,
+      "local_path": "data/bronze/meteo/Q_74_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_74_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_74_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-28T06:56:18+00:00",
+      "bytes": 774800,
+      "local_path": "data/bronze/meteo/Q_74_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_74_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_74_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-29T06:55:43+00:00",
+      "bytes": 342213,
+      "local_path": "data/bronze/meteo/Q_74_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_75_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_75_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:23:23+00:00",
+      "bytes": 4023506,
+      "local_path": "data/bronze/meteo/Q_75_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_75_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_75_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:28:42+00:00",
+      "bytes": 1691077,
+      "local_path": "data/bronze/meteo/Q_75_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_75_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_75_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-29T06:54:37+00:00",
+      "bytes": 121274,
+      "local_path": "data/bronze/meteo/Q_75_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_75_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_75_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-30T06:54:04+00:00",
+      "bytes": 59478,
+      "local_path": "data/bronze/meteo/Q_75_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_76_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_76_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:23:26+00:00",
+      "bytes": 9254901,
+      "local_path": "data/bronze/meteo/Q_76_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_76_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_76_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:28:43+00:00",
+      "bytes": 4063803,
+      "local_path": "data/bronze/meteo/Q_76_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_76_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_76_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-30T06:53:01+00:00",
+      "bytes": 364989,
+      "local_path": "data/bronze/meteo/Q_76_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_76_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_76_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-29T06:55:44+00:00",
+      "bytes": 174078,
+      "local_path": "data/bronze/meteo/Q_76_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_77_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_77_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:23:30+00:00",
+      "bytes": 11464872,
+      "local_path": "data/bronze/meteo/Q_77_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_77_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_77_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:28:45+00:00",
+      "bytes": 5291795,
+      "local_path": "data/bronze/meteo/Q_77_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_77_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_77_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-30T06:53:01+00:00",
+      "bytes": 296258,
+      "local_path": "data/bronze/meteo/Q_77_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_77_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_77_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-29T06:55:45+00:00",
+      "bytes": 137863,
+      "local_path": "data/bronze/meteo/Q_77_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_78_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_78_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:23:32+00:00",
+      "bytes": 6900808,
+      "local_path": "data/bronze/meteo/Q_78_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_78_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_78_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:28:46+00:00",
+      "bytes": 3867604,
+      "local_path": "data/bronze/meteo/Q_78_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_78_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_78_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-30T06:53:01+00:00",
+      "bytes": 225745,
+      "local_path": "data/bronze/meteo/Q_78_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_78_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_78_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-29T06:55:45+00:00",
+      "bytes": 125743,
+      "local_path": "data/bronze/meteo/Q_78_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_79_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_79_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-09-01T09:25:24+00:00",
+      "bytes": 8498909,
+      "local_path": "data/bronze/meteo/Q_79_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_79_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_79_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:28:47+00:00",
+      "bytes": 3583361,
+      "local_path": "data/bronze/meteo/Q_79_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_79_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_79_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-30T06:53:02+00:00",
+      "bytes": 292458,
+      "local_path": "data/bronze/meteo/Q_79_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_79_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_79_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-29T06:55:45+00:00",
+      "bytes": 125464,
+      "local_path": "data/bronze/meteo/Q_79_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_80_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_80_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-09-01T09:25:27+00:00",
+      "bytes": 9347738,
+      "local_path": "data/bronze/meteo/Q_80_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_80_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_80_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:28:49+00:00",
+      "bytes": 4906498,
+      "local_path": "data/bronze/meteo/Q_80_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_80_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_80_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-29T06:54:39+00:00",
+      "bytes": 303119,
+      "local_path": "data/bronze/meteo/Q_80_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_80_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_80_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-28T06:57:27+00:00",
+      "bytes": 151679,
+      "local_path": "data/bronze/meteo/Q_80_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_81_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_81_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:23:39+00:00",
+      "bytes": 8382050,
+      "local_path": "data/bronze/meteo/Q_81_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_81_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_81_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:28:50+00:00",
+      "bytes": 3547020,
+      "local_path": "data/bronze/meteo/Q_81_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_81_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_81_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-30T06:53:02+00:00",
+      "bytes": 216691,
+      "local_path": "data/bronze/meteo/Q_81_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_81_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_81_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-29T06:55:46+00:00",
+      "bytes": 114713,
+      "local_path": "data/bronze/meteo/Q_81_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_82_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_82_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:23:40+00:00",
+      "bytes": 5734440,
+      "local_path": "data/bronze/meteo/Q_82_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_82_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_82_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:28:51+00:00",
+      "bytes": 2191073,
+      "local_path": "data/bronze/meteo/Q_82_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_82_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_82_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-30T06:53:03+00:00",
+      "bytes": 160073,
+      "local_path": "data/bronze/meteo/Q_82_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_82_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_82_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-29T06:55:47+00:00",
+      "bytes": 86688,
+      "local_path": "data/bronze/meteo/Q_82_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_83_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_83_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:23:46+00:00",
+      "bytes": 17732805,
+      "local_path": "data/bronze/meteo/Q_83_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_83_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_83_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:28:54+00:00",
+      "bytes": 10069819,
+      "local_path": "data/bronze/meteo/Q_83_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_83_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_83_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-29T06:54:40+00:00",
+      "bytes": 699808,
+      "local_path": "data/bronze/meteo/Q_83_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_83_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_83_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-28T06:57:28+00:00",
+      "bytes": 345679,
+      "local_path": "data/bronze/meteo/Q_83_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_84_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_84_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:23:50+00:00",
+      "bytes": 12607399,
+      "local_path": "data/bronze/meteo/Q_84_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_84_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_84_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:28:56+00:00",
+      "bytes": 6224272,
+      "local_path": "data/bronze/meteo/Q_84_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_84_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_84_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-30T06:53:04+00:00",
+      "bytes": 394161,
+      "local_path": "data/bronze/meteo/Q_84_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_84_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_84_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-29T06:55:47+00:00",
+      "bytes": 212412,
+      "local_path": "data/bronze/meteo/Q_84_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_85_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_85_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:23:53+00:00",
+      "bytes": 8596879,
+      "local_path": "data/bronze/meteo/Q_85_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_85_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_85_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:28:57+00:00",
+      "bytes": 3458511,
+      "local_path": "data/bronze/meteo/Q_85_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_85_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_85_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-28T06:56:21+00:00",
+      "bytes": 377440,
+      "local_path": "data/bronze/meteo/Q_85_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_85_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_85_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-29T06:55:48+00:00",
+      "bytes": 173419,
+      "local_path": "data/bronze/meteo/Q_85_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_86_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_86_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:23:56+00:00",
+      "bytes": 9985264,
+      "local_path": "data/bronze/meteo/Q_86_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_86_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_86_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:28:58+00:00",
+      "bytes": 4426659,
+      "local_path": "data/bronze/meteo/Q_86_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_86_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_86_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-30T06:53:04+00:00",
+      "bytes": 288073,
+      "local_path": "data/bronze/meteo/Q_86_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_86_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_86_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-30T06:54:07+00:00",
+      "bytes": 145571,
+      "local_path": "data/bronze/meteo/Q_86_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_87_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_87_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:23:59+00:00",
+      "bytes": 9292229,
+      "local_path": "data/bronze/meteo/Q_87_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_87_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_87_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:29:00+00:00",
+      "bytes": 3775613,
+      "local_path": "data/bronze/meteo/Q_87_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_87_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_87_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-29T06:54:41+00:00",
+      "bytes": 293245,
+      "local_path": "data/bronze/meteo/Q_87_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_87_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_87_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-29T06:55:49+00:00",
+      "bytes": 131911,
+      "local_path": "data/bronze/meteo/Q_87_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_88_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_88_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:24:02+00:00",
+      "bytes": 7357568,
+      "local_path": "data/bronze/meteo/Q_88_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_88_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_88_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:29:02+00:00",
+      "bytes": 3470967,
+      "local_path": "data/bronze/meteo/Q_88_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_88_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_88_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-29T06:54:42+00:00",
+      "bytes": 395318,
+      "local_path": "data/bronze/meteo/Q_88_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_88_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_88_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-29T06:55:49+00:00",
+      "bytes": 191752,
+      "local_path": "data/bronze/meteo/Q_88_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_89_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_89_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:24:06+00:00",
+      "bytes": 11145641,
+      "local_path": "data/bronze/meteo/Q_89_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_89_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_89_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:29:03+00:00",
+      "bytes": 4898157,
+      "local_path": "data/bronze/meteo/Q_89_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_89_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_89_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-29T06:54:42+00:00",
+      "bytes": 348545,
+      "local_path": "data/bronze/meteo/Q_89_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_89_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_89_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-29T06:55:50+00:00",
+      "bytes": 145155,
+      "local_path": "data/bronze/meteo/Q_89_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_90_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_90_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:24:07+00:00",
+      "bytes": 2469649,
+      "local_path": "data/bronze/meteo/Q_90_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_90_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_90_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:29:04+00:00",
+      "bytes": 1134025,
+      "local_path": "data/bronze/meteo/Q_90_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_90_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_90_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-29T06:54:42+00:00",
+      "bytes": 110083,
+      "local_path": "data/bronze/meteo/Q_90_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_90_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_90_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-30T06:54:08+00:00",
+      "bytes": 42568,
+      "local_path": "data/bronze/meteo/Q_90_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_91_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_91_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:24:08+00:00",
+      "bytes": 5081458,
+      "local_path": "data/bronze/meteo/Q_91_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_91_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_91_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:29:05+00:00",
+      "bytes": 2201698,
+      "local_path": "data/bronze/meteo/Q_91_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_91_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_91_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-29T06:54:43+00:00",
+      "bytes": 121427,
+      "local_path": "data/bronze/meteo/Q_91_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_91_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_91_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-29T06:55:50+00:00",
+      "bytes": 64339,
+      "local_path": "data/bronze/meteo/Q_91_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_92_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_92_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:24:09+00:00",
+      "bytes": 1450951,
+      "local_path": "data/bronze/meteo/Q_92_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_92_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_92_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-09-01T09:32:09+00:00",
+      "bytes": 395352,
+      "local_path": "data/bronze/meteo/Q_92_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_92_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_92_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-29T06:54:43+00:00",
+      "bytes": 13307,
+      "local_path": "data/bronze/meteo/Q_92_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_92_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_92_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-29T06:55:50+00:00",
+      "bytes": 3892,
+      "local_path": "data/bronze/meteo/Q_92_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_93_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_93_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:24:11+00:00",
+      "bytes": 1317783,
+      "local_path": "data/bronze/meteo/Q_93_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_93_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_93_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:29:06+00:00",
+      "bytes": 366783,
+      "local_path": "data/bronze/meteo/Q_93_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_93_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_93_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-30T06:53:07+00:00",
+      "bytes": 13518,
+      "local_path": "data/bronze/meteo/Q_93_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_93_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_93_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-29T06:55:51+00:00",
+      "bytes": 3958,
+      "local_path": "data/bronze/meteo/Q_93_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_94_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_94_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:24:12+00:00",
+      "bytes": 1933006,
+      "local_path": "data/bronze/meteo/Q_94_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_94_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_94_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:29:07+00:00",
+      "bytes": 608814,
+      "local_path": "data/bronze/meteo/Q_94_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_94_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_94_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-29T06:54:43+00:00",
+      "bytes": 13322,
+      "local_path": "data/bronze/meteo/Q_94_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_94_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_94_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-30T06:54:09+00:00",
+      "bytes": 3914,
+      "local_path": "data/bronze/meteo/Q_94_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_95_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_95_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:24:13+00:00",
+      "bytes": 5259415,
+      "local_path": "data/bronze/meteo/Q_95_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_95_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_95_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:29:09+00:00",
+      "bytes": 2787030,
+      "local_path": "data/bronze/meteo/Q_95_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_95_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_95_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-29T06:54:44+00:00",
+      "bytes": 141863,
+      "local_path": "data/bronze/meteo/Q_95_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_95_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_95_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-29T06:55:51+00:00",
+      "bytes": 95595,
+      "local_path": "data/bronze/meteo/Q_95_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_971_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_971_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:24:42+00:00",
+      "bytes": 11046248,
+      "local_path": "data/bronze/meteo/Q_971_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_971_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_971_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:29:10+00:00",
+      "bytes": 2921940,
+      "local_path": "data/bronze/meteo/Q_971_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_971_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_971_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-29T06:55:00+00:00",
+      "bytes": 743186,
+      "local_path": "data/bronze/meteo/Q_971_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_971_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_971_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-28T06:57:32+00:00",
+      "bytes": 260168,
+      "local_path": "data/bronze/meteo/Q_971_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_972_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_972_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:24:46+00:00",
+      "bytes": 11078266,
+      "local_path": "data/bronze/meteo/Q_972_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_972_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_972_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:29:12+00:00",
+      "bytes": 2720459,
+      "local_path": "data/bronze/meteo/Q_972_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_972_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_972_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-30T06:53:23+00:00",
+      "bytes": 672436,
+      "local_path": "data/bronze/meteo/Q_972_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_972_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_972_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-30T06:54:10+00:00",
+      "bytes": 148020,
+      "local_path": "data/bronze/meteo/Q_972_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_973_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_973_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:24:48+00:00",
+      "bytes": 8334656,
+      "local_path": "data/bronze/meteo/Q_973_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_973_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_973_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:29:13+00:00",
+      "bytes": 3050443,
+      "local_path": "data/bronze/meteo/Q_973_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_973_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_973_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-30T06:53:24+00:00",
+      "bytes": 484568,
+      "local_path": "data/bronze/meteo/Q_973_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_973_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_973_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-29T06:55:53+00:00",
+      "bytes": 155709,
+      "local_path": "data/bronze/meteo/Q_973_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_974_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_974_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:24:56+00:00",
+      "bytes": 23559652,
+      "local_path": "data/bronze/meteo/Q_974_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_974_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_974_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:29:15+00:00",
+      "bytes": 5368259,
+      "local_path": "data/bronze/meteo/Q_974_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_974_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_974_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-29T06:55:01+00:00",
+      "bytes": 878039,
+      "local_path": "data/bronze/meteo/Q_974_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_974_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_974_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-29T06:55:54+00:00",
+      "bytes": 312279,
+      "local_path": "data/bronze/meteo/Q_974_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_975_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_975_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:24:56+00:00",
+      "bytes": 899156,
+      "local_path": "data/bronze/meteo/Q_975_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_975_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_975_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:29:15+00:00",
+      "bytes": 670472,
+      "local_path": "data/bronze/meteo/Q_975_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_975_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_975_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-29T06:55:02+00:00",
+      "bytes": 31016,
+      "local_path": "data/bronze/meteo/Q_975_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_975_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_975_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-29T06:55:54+00:00",
+      "bytes": 22625,
+      "local_path": "data/bronze/meteo/Q_975_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_984_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_984_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:24:58+00:00",
+      "bytes": 4839072,
+      "local_path": "data/bronze/meteo/Q_984_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_984_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_984_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-09-01T09:32:26+00:00",
+      "bytes": 3356873,
+      "local_path": "data/bronze/meteo/Q_984_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_984_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_984_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-29T06:55:02+00:00",
+      "bytes": 173385,
+      "local_path": "data/bronze/meteo/Q_984_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_984_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_984_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-29T06:55:54+00:00",
+      "bytes": 109525,
+      "local_path": "data/bronze/meteo/Q_984_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_985_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_985_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:25:00+00:00",
+      "bytes": 2125153,
+      "local_path": "data/bronze/meteo/Q_985_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_985_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_985_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:29:18+00:00",
+      "bytes": 748658,
+      "local_path": "data/bronze/meteo/Q_985_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_985_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_985_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-30T06:53:26+00:00",
+      "bytes": 117831,
+      "local_path": "data/bronze/meteo/Q_985_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_985_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_985_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-28T06:57:34+00:00",
+      "bytes": 66312,
+      "local_path": "data/bronze/meteo/Q_985_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_986_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_986_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:25:00+00:00",
+      "bytes": 1417044,
+      "local_path": "data/bronze/meteo/Q_986_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_986_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_986_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-09-01T09:32:27+00:00",
+      "bytes": 751203,
+      "local_path": "data/bronze/meteo/Q_986_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_986_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_986_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-29T06:55:02+00:00",
+      "bytes": 55023,
+      "local_path": "data/bronze/meteo/Q_986_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_986_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_986_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-30T06:54:12+00:00",
+      "bytes": 31324,
+      "local_path": "data/bronze/meteo/Q_986_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_987_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_987_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:25:07+00:00",
+      "bytes": 19878810,
+      "local_path": "data/bronze/meteo/Q_987_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_987_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_987_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:29:21+00:00",
+      "bytes": 7732078,
+      "local_path": "data/bronze/meteo/Q_987_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_987_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_987_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-29T06:55:03+00:00",
+      "bytes": 1034186,
+      "local_path": "data/bronze/meteo/Q_987_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_987_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_987_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-29T06:55:56+00:00",
+      "bytes": 385693,
+      "local_path": "data/bronze/meteo/Q_987_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_988_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_988_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:25:13+00:00",
+      "bytes": 22368955,
+      "local_path": "data/bronze/meteo/Q_988_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_988_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_988_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-09-01T09:32:35+00:00",
+      "bytes": 10981900,
+      "local_path": "data/bronze/meteo/Q_988_previous-1950-2024_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_988_periode_2025-2026_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_988_latest-2025-2026_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-29T06:55:04+00:00",
+      "bytes": 1059271,
+      "local_path": "data/bronze/meteo/Q_988_latest-2025-2026_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_988_periode_2025-2026_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_988_latest-2025-2026_autres-parametres.csv.gz",
+      "last_modified": "2026-10-29T06:55:57+00:00",
+      "bytes": 573069,
+      "local_path": "data/bronze/meteo/Q_988_latest-2025-2026_autres-parametres.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_99_periode_1950-2024_RR-T-Vent",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_99_previous-1950-2024_RR-T-Vent.csv.gz",
+      "last_modified": "2026-10-02T06:24:13+00:00",
+      "bytes": 220843,
+      "local_path": "data/bronze/meteo/Q_99_previous-1950-2024_RR-T-Vent.csv.gz"
+    },
+    {
+      "title": "QUOT_departement_99_periode_1950-2024_autres-parametres",
+      "url": "https://meteofrance.s3.sbg.io.cloud.ovh.net/data/synchro_ftp/BASE/QUOT/Q_99_previous-1950-2024_autres-parametres.csv.gz",
+      "last_modified": "2026-10-02T06:29:09+00:00",
+      "bytes": 3952,
+      "local_path": "data/bronze/meteo/Q_99_previous-1950-2024_autres-parametres.csv.gz"
+    }
+  ]
+}
