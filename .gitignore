@@ -1,0 +1,10 @@
+data/bronze/
+data/silver/
+data/gold/
+data/results/
+.venv/
+__pycache__/
+*.parquet
+!data/reference/*.parquet
+.ipynb_checkpoints/
+.DS_Store
