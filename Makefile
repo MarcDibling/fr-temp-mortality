@@ -15,4 +15,6 @@ gold:
 models:
 	uv run python -m frtm.models.baseline
 	uv run python -m frtm.models.excess
+figures:
+	uv run python -m frtm.viz.figures
 all: ingest silver gold

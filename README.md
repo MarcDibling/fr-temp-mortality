@@ -28,5 +28,8 @@ Model excess vs Santé publique France / InVS published excess:
 
 SPF figures are from memory of the published bulletins and are being verified; 2022 is omitted because SPF's figure covers only département-days under canicule vigilance.
 
+![Observed/expected deaths by temperature](docs/figures/exposure_response_ratio.png)
+![Heatwave summers](docs/figures/episodes_observed_vs_expected.png)
+
 ## Run
 `make all`
