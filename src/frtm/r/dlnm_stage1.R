@@ -9,7 +9,8 @@ suppressPackageStartupMessages({
 })
 
 args   <- commandArgs(trailingOnly = TRUE)
-pilots <- if (length(args)) args else c("75", "13", "69", "33", "59")
+metro  <- c(sprintf("%02d", setdiff(1:95, 20)), "2A", "2B")
+pilots <- if (length(args)) args else metro
 bands  <- c("0-64", "65-74", "75-84", "85+")
 out    <- "data/results/dlnm"
 dir.create(out, recursive = TRUE, showWarnings = FALSE)
@@ -48,24 +49,33 @@ fit_one <- function(d) {
        curve = data.frame(tm = pr$predvar, rr = pr$allRRfit, lo = pr$allRRlow, hi = pr$allRRhigh),
        lag_heat = data.frame(lag = 0:21, rr = pr$matRRfit[at(rng[2]), ], lo = pr$matRRlow[at(rng[2]), ], hi = pr$matRRhigh[at(rng[2]), ]),
        lag_cold = data.frame(lag = 0:21, rr = pr$matRRfit[at(rng[1]), ], lo = pr$matRRlow[at(rng[1]), ], hi = pr$matRRhigh[at(rng[1]), ]),
-       coef = coef(red), vcov = vcov(red))
+       coef = coef(red), vcov = vcov(red),
+       tm_knots = qs, tm_range = range(d$tm, na.rm = TRUE), tm_q = quantile(d$tm, seq(0, 1, 0.01), na.rm = TRUE))
 }
 
 curves <- list(); lags <- list(); summ <- list(); reduced <- list()
-for (dp in pilots) for (b in bands) {
+jobs <- expand.grid(dept = pilots, band = bands, stringsAsFactors = FALSE)
+fit_job <- function(i) {
+  dp <- jobs$dept[i]; b <- jobs$band[i]
   d <- panel |> filter(dept == dp, age_band == b)
-  cat(sprintf("fitting %s %-5s (%d days)\n", dp, b, nrow(d)))
-  r <- tryCatch(fit_one(as.data.frame(d)), error = function(e) { message("  failed: ", conditionMessage(e)); NULL })
-  if (is.null(r)) next
-  key <- paste(dp, b, sep = "|")
+  r <- tryCatch(fit_one(as.data.frame(d)), error = function(e) { message(dp, " ", b, " failed: ", conditionMessage(e)); NULL })
+  if (!is.null(r)) cat(sprintf("done %s %-5s mmt=%.1f rr99=%.2f\n", dp, b, r$mmt, r$rr_p99))
+  list(dept = dp, band = b, r = r)
+}
+results <- parallel::mclapply(seq_len(nrow(jobs)), fit_job, mc.cores = 4)
+for (res in results) {
+  if (is.null(res$r)) next
+  dp <- res$dept; b <- res$band; r <- res$r; key <- paste(dp, b, sep = "|")
   curves[[key]] <- cbind(dept = dp, age_band = b, r$curve)
   lags[[key]]   <- rbind(cbind(dept = dp, age_band = b, side = "heat_p99", r$lag_heat),
                          cbind(dept = dp, age_band = b, side = "cold_p1",  r$lag_cold))
   summ[[key]]   <- data.frame(dept = dp, age_band = b, mmt = r$mmt, mmt_pct = r$mmt_pct, p1 = r$p1, p99 = r$p99,
                               rr_p1 = r$rr_p1, rr_p99 = r$rr_p99, rr_p99_lo = r$rr_p99_lo, rr_p99_hi = r$rr_p99_hi,
                               phi = r$phi, n_days = r$n_days)
-  reduced[[key]] <- list(dept = dp, age_band = b, mmt = r$mmt, coef = r$coef, vcov = r$vcov)
+  reduced[[key]] <- list(dept = dp, age_band = b, mmt = r$mmt, coef = r$coef, vcov = r$vcov,
+                         tm_knots = r$tm_knots, tm_range = r$tm_range, tm_q = r$tm_q)
 }
+
 write.csv(do.call(rbind, curves), file.path(out, "curves.csv"), row.names = FALSE)
 write.csv(do.call(rbind, lags),   file.path(out, "lag_curves.csv"), row.names = FALSE)
 write.csv(do.call(rbind, summ),   file.path(out, "summary.csv"), row.names = FALSE)

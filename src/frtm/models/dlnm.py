@@ -12,6 +12,7 @@ import matplotlib.pyplot as plt
 import polars as pl
 
 R_SCRIPT = Path("src/frtm/r/dlnm_stage1.R")
+R2_SCRIPT = Path("src/frtm/r/dlnm_stage2.R")
 RES = Path("data/results/dlnm")
 FIG = Path("docs/figures")
 NAMES = {"75": "Paris", "13": "Bouches-du-Rhône", "69": "Rhône", "33": "Gironde", "59": "Nord"}
@@ -50,11 +51,30 @@ def plot() -> None:
     print(summ.with_columns(pl.col("dept").replace(NAMES)).select("dept", "age_band", "mmt", "mmt_pct", "p1", "rr_p1", "p99", "rr_p99", "rr_p99_lo", "rr_p99_hi", "phi"))
 
 
+def plot_pooled() -> None:
+    pooled = pl.read_csv(RES / "pooled_curves.csv")
+    dep = pl.read_csv(RES / "dept_blup_summary.csv", schema_overrides={"dept": pl.Utf8})
+    fig, axes = plt.subplots(1, 2, figsize=(13, 5))
+    for band, g in pooled.group_by("age_band", maintain_order=True):
+        axes[0].plot(g["pct"], g["rr"], lw=1.8, label=band[0]); axes[0].fill_between(g["pct"], g["lo"], g["hi"], alpha=0.12)
+    axes[0].axhline(1, color="black", lw=0.8); axes[0].set_xlabel("Temperature percentile (département-specific)"); axes[0].set_ylabel("Relative risk vs MMT")
+    axes[0].set_title("Pooled exposure–response, metropolitan France"); axes[0].legend(title="Age band", frameon=False); axes[0].grid(alpha=0.3); axes[0].set_ylim(0.9, 2.5)
+    d85 = dep.filter(pl.col("age_band") == "85+").sort("rr_p99")
+    axes[1].errorbar(d85["rr_p99"], range(d85.height), xerr=[d85["rr_p99"] - d85["rr_p99_lo"], d85["rr_p99_hi"] - d85["rr_p99"]], fmt="o", ms=3, color="#c53030", ecolor="#feb2b2", lw=1)
+    axes[1].set_yticks(range(d85.height)); axes[1].set_yticklabels(d85["dept"], fontsize=5)
+    axes[1].axvline(1, color="black", lw=0.8); axes[1].set_xlabel("RR at the 99th percentile, 85+, BLUP"); axes[1].set_title("Heat sensitivity by département"); axes[1].grid(alpha=0.3, axis="x")
+    fig.tight_layout(); fig.savefig(FIG / "dlnm_pooled_and_departements.png", dpi=150); plt.close(fig)
+    pl.Config.set_tbl_rows(20)
+    print(pl.read_csv(RES / "heterogeneity.csv"))
+    print(d85.select("dept", "mmt", "mmt_pct", "rr_p1", "rr_p99").tail(10))
+
+
 def main() -> None:
-    pilots = sys.argv[1:] or ["75", "13", "69", "33", "59"]
+    pilots = sys.argv[1:]
     run_r(pilots)
     plot()
-
+    subprocess.run(["Rscript", str(R2_SCRIPT)], check=True)
+    plot_pooled()
 
 if __name__ == "__main__":
     main()
