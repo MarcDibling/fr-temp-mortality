@@ -1,4 +1,4 @@
-.PHONY: ingest ingest-deaths ingest-meteo ingest-population silver gold all
+.PHONY: ingest ingest-deaths ingest-meteo ingest-population silver gold figures all
 ingest: ingest-deaths ingest-meteo ingest-population
 ingest-deaths:
 	uv run python -m frtm.ingest.insee_deaths
@@ -17,4 +17,6 @@ models:
 	uv run python -m frtm.models.excess
 figures:
 	uv run python -m frtm.viz.figures
+dlnm:
+	uv run python -m frtm.models.dlnm
 all: ingest silver gold

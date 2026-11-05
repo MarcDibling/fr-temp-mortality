@@ -7,4 +7,6 @@ __pycache__/
 *.parquet
 !data/reference/*.parquet
 .ipynb_checkpoints/
+renv/library/
+renv/staging/
 .DS_Store

@@ -11,3 +11,4 @@
 - Baseline model (commit 7): quasi-Poisson GLM per dept × age band, spline trend (6 df), annual + semi-annual Fourier, day-of-week, holidays, log(pop) offset. Training excludes Mar 2020–Jun 2021 and, per département, days outside the 2.5–97.5 % temperature range (EuroMOMO practice).
 - Effect of excluding extreme days, ratio of our episode excess to SPF's: 2003 1.02→1.05, 2006 0.65→0.95, 2019 Jun 0.35→0.90, 2019 Jul 0.56→0.76, 2026 1.10→1.26 (SPF figure provisional). Kept the exclusion.
 - 2022 not comparable: SPF counts only département-days under canicule vigilance. Redo with the vigilance archive.
+- Pilot DLNM: MMT 20–23 °C; 85+ RR at 30 °C >3 in Paris/Nord vs ~1.7–2 in Gironde/Bouches-du-Rhône; cold RR ≈1.35 at 0–15 °C for 85+ Paris; heat lag 0–10 days, cold lag 2–21. Lag 0–21 confirmed
