@@ -9,11 +9,14 @@ dependencies = [
     "fastexcel>=0.16.0",
     "holidays>=0.83",
     "httpx>=0.28.1",
+    "numpy>=2.0.2",
     "openpyxl>=3.1.5",
+    "pandas>=2.3.3",
     "pandera>=0.26.1",
     "polars>=1.36.1",
     "pyarrow>=21.0.0",
     "pyyaml>=6.0.3",
+    "statsmodels>=0.14.6",
 ]
 
 [project.scripts]

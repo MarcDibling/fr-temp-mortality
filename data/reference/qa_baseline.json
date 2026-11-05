@@ -1,0 +1,147 @@
+{
+  "models": 384,
+  "phi_median": 1.028933616384355,
+  "excess_1_20_aug_2003_metro": 15482,
+  "annual_national": [
+    {
+      "year": 1999,
+      "observed": 545945,
+      "expected": 538055
+    },
+    {
+      "year": 2000,
+      "observed": 532025,
+      "expected": 543202
+    },
+    {
+      "year": 2001,
+      "observed": 532852,
+      "expected": 538544
+    },
+    {
+      "year": 2002,
+      "observed": 537029,
+      "expected": 532518
+    },
+    {
+      "year": 2003,
+      "observed": 554961,
+      "expected": 524683
+    },
+    {
+      "year": 2004,
+      "observed": 511222,
+      "expected": 519599
+    },
+    {
+      "year": 2005,
+      "observed": 529714,
+      "expected": 518676
+    },
+    {
+      "year": 2006,
+      "observed": 517828,
+      "expected": 522813
+    },
+    {
+      "year": 2007,
+      "observed": 522513,
+      "expected": 525303
+    },
+    {
+      "year": 2008,
+      "observed": 533677,
+      "expected": 530029
+    },
+    {
+      "year": 2009,
+      "observed": 539530,
+      "expected": 532542
+    },
+    {
+      "year": 2010,
+      "observed": 539238,
+      "expected": 537763
+    },
+    {
+      "year": 2011,
+      "observed": 532119,
+      "expected": 544278
+    },
+    {
+      "year": 2012,
+      "observed": 559755,
+      "expected": 551939
+    },
+    {
+      "year": 2013,
+      "observed": 558901,
+      "expected": 555039
+    },
+    {
+      "year": 2014,
+      "observed": 547458,
+      "expected": 560421
+    },
+    {
+      "year": 2015,
+      "observed": 582044,
+      "expected": 566263
+    },
+    {
+      "year": 2016,
+      "observed": 581474,
+      "expected": 576429
+    },
+    {
+      "year": 2017,
+      "observed": 593922,
+      "expected": 585494
+    },
+    {
+      "year": 2018,
+      "observed": 596958,
+      "expected": 597123
+    },
+    {
+      "year": 2019,
+      "observed": 599814,
+      "expected": 609585
+    },
+    {
+      "year": 2020,
+      "observed": 655090,
+      "expected": 620492
+    },
+    {
+      "year": 2021,
+      "observed": 644603,
+      "expected": 624634
+    },
+    {
+      "year": 2022,
+      "observed": 658830,
+      "expected": 630887
+    },
+    {
+      "year": 2023,
+      "observed": 624350,
+      "expected": 633543
+    },
+    {
+      "year": 2024,
+      "observed": 627814,
+      "expected": 633305
+    },
+    {
+      "year": 2025,
+      "observed": 632276,
+      "expected": 625095
+    },
+    {
+      "year": 2026,
+      "observed": 465489,
+      "expected": 455640
+    }
+  ]
+}

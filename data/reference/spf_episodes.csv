@@ -1,0 +1,7 @@
+episode,start,end,spf_excess,scope,source
+2003 August,2003-08-01,2003-08-20,14802,metropole,InVS 2003 report (verify)
+2006 July,2006-07-11,2006-07-28,2065,metropole,InVS 2006 (verify)
+2019 June,2019-06-24,2019-07-07,567,metropole,SPF bilan ete 2019 (verify)
+2019 July,2019-07-21,2019-07-27,868,metropole,SPF bilan ete 2019 (verify)
+2022 summer,2022-06-01,2022-09-15,2816,canicule depts only,SPF bilan ete 2022 (verify; SPF counts only dept-days under vigilance)
+2026 June-July,2026-06-17,2026-07-02,5764,metropole,SPF press release 22 Jul 2026 (first estimate)
