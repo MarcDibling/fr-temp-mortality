@@ -1,0 +1,13 @@
+colonne;description
+nom;Nom de famille
+prenoms;Prénoms, séparés par des virgules « , »
+sexe;Sexe (M pour masculin, F pour féminin)
+date_naissance;"Date de naissance (format AAAAMMJJ ; des 0 indiquent que l’année/le mois/le jour sont inconnus)"
+code_insee_naissance;Code INSEE du lieu de naissance
+commune_naissance;Libellé de la commune de naissance
+pays_naissance;Pays de naissance
+date_deces;"Date de décès (format AAAAMMJJ ; des 0 indiquent que l’année/le mois/le jour sont inconnus)"
+code_insee_deces;Code INSEE du lieu de décès
+numero_acte_deces;Numéro d'acte de décès
+fichier_origine;Fichier duquel la ligne en question est issue dans les données sources
+opposition;Booléen indiquant si une opposition a été faite sur le décès en question, à partir du fichier des oppositions (True si opposition, False sinon)

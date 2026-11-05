@@ -1,0 +1,25 @@
+{
+  "source": "https://www.data.gouv.fr/api/1/datasets/agregation-des-fichiers-des-personnes-decedees/",
+  "resource_id": "d7aed239-8dc1-46dd-bc66-3d18097cb7ea",
+  "url": "https://data-pipeline-open.s3.sbg.io.cloud.ovh.net/deces/deces.parquet",
+  "last_modified": "2026-10-16T07:07:17+00:00",
+  "filesize_bytes": 662950381,
+  "sha256": "99f63b305f3c3f7e4bf39bfad3375e5b63b55fb5ea3e0066ed40856029632da4",
+  "rows": 29411388,
+  "schema": {
+    "nom": "String",
+    "prenoms": "String",
+    "sexe": "String",
+    "date_naissance": "String",
+    "code_insee_naissance": "String",
+    "commune_naissance": "String",
+    "pays_naissance": "String",
+    "date_deces": "String",
+    "code_insee_deces": "String",
+    "numero_acte_deces": "String",
+    "fichier_origine": "String",
+    "opposition": "Boolean"
+  },
+  "downloaded_at": "2026-11-05T20:11:29+00:00",
+  "local_path": "data/bronze/insee_deces/deces_2026-10-16.parquet"
+}
