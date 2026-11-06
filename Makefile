@@ -1,4 +1,4 @@
-.PHONY: ingest ingest-deaths ingest-meteo ingest-population silver gold figures dlnm attributable all
+.PHONY: ingest ingest-deaths ingest-meteo ingest-population silver gold figures dlnm attributable meta all
 ingest: ingest-deaths ingest-meteo ingest-population
 ingest-deaths:
 	uv run python -m frtm.ingest.insee_deaths
@@ -23,4 +23,6 @@ dlnm:
 	uv run python -m frtm.models.dlnm
 attributable:
 	uv run python -m frtm.models.attributable
+meta:
+	uv run python -m frtm.models.meta
 all: ingest silver gold

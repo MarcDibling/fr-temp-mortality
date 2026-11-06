@@ -128,8 +128,8 @@ def build() -> None:
 
     def wmean(col: str) -> pl.Expr:
         w = pl.when(pl.col(col).is_not_null()).then(pl.col("weight")).otherwise(0.0)
-        return (pl.col(col) * w).sum() / w.sum()
-
+        return pl.when(w.sum() > 0).then((pl.col(col) * w).sum() / w.sum()).otherwise(None)
+    
     daily = (
         kept.group_by(["date", "dept"])
         .agg(tn=wmean("TN"), tx=wmean("TX"), tm=wmean("TM"), um=wmean("UM"), rr=wmean("RR"),

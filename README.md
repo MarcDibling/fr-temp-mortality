@@ -31,5 +31,9 @@ SPF figures are from memory of the published bulletins and are being verified; 2
 ![Observed/expected deaths by temperature](docs/figures/exposure_response_ratio.png)
 ![Heatwave summers](docs/figures/episodes_observed_vs_expected.png)
 
+Between 2000 and 2025, about 48,800 deaths a year in metropolitan France were attributable to cold and 3,850 to heat — 8.6 % and 0.7 % of all deaths (95 % intervals 5.3–11.8 % and 0.2–1.1 %). Cold kills through many moderately cold days (92 % of the cold burden); heat through a few extreme ones (64 % of the heat burden comes from days above the 97.5th percentile). Among the over-85s, one death in eight is attributable to cold.
+
+Département-level differences in sensitivity are not explained by climate (mean temperature has no effect once curves are expressed on each département’s own percentile scale) but by urbanity: at the 99th percentile the over-85s’ relative risk is 1.18 in rural départements and 1.30 at 30 % urban share, with Paris far above; density, latitude and coastal location together explain a quarter of the between-département variance (I² 44 % → 34 %), leaving a residual to test against income and care-home provision.
+
 ## Run
 `make all`

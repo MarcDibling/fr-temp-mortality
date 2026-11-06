@@ -1,6 +1,6 @@
 {
-  "url": "https://geo.api.gouv.fr/communes?fields=code,nom,codeDepartement,population,centre&format=json",
+  "url": "https://geo.api.gouv.fr/communes?fields=code,nom,codeDepartement,population,centre,surface&format=json",
   "rows": 34963,
   "population_total": 68952941,
-  "downloaded_at": "2026-11-05T23:35:01+00:00"
+  "downloaded_at": "2026-11-06T00:09:18+00:00"
 }

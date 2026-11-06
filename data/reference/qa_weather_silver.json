@@ -55,7 +55,7 @@
       "dept": "07",
       "days": 9804,
       "tm_coverage": 1.0,
-      "um_coverage": 1.0
+      "um_coverage": 0.9995920032639739
     },
     {
       "dept": "08",
@@ -79,7 +79,7 @@
       "dept": "11",
       "days": 9804,
       "tm_coverage": 1.0,
-      "um_coverage": 1.0
+      "um_coverage": 0.9998980008159934
     },
     {
       "dept": "12",
@@ -169,7 +169,7 @@
       "dept": "27",
       "days": 9804,
       "tm_coverage": 1.0,
-      "um_coverage": 1.0
+      "um_coverage": 0.9983680130558955
     },
     {
       "dept": "28",
@@ -271,7 +271,7 @@
       "dept": "42",
       "days": 9804,
       "tm_coverage": 1.0,
-      "um_coverage": 1.0
+      "um_coverage": 0.9997960016319869
     },
     {
       "dept": "43",
@@ -289,7 +289,7 @@
       "dept": "45",
       "days": 9804,
       "tm_coverage": 1.0,
-      "um_coverage": 1.0
+      "um_coverage": 0.9998980008159934
     },
     {
       "dept": "46",
@@ -301,13 +301,13 @@
       "dept": "47",
       "days": 9804,
       "tm_coverage": 1.0,
-      "um_coverage": 1.0
+      "um_coverage": 0.9998980008159934
     },
     {
       "dept": "48",
       "days": 9804,
       "tm_coverage": 1.0,
-      "um_coverage": 1.0
+      "um_coverage": 0.0
     },
     {
       "dept": "49",
@@ -337,7 +337,7 @@
       "dept": "53",
       "days": 9804,
       "tm_coverage": 1.0,
-      "um_coverage": 1.0
+      "um_coverage": 0.9997960016319869
     },
     {
       "dept": "54",
@@ -451,7 +451,7 @@
       "dept": "72",
       "days": 9804,
       "tm_coverage": 1.0,
-      "um_coverage": 1.0
+      "um_coverage": 0.9996940024479805
     },
     {
       "dept": "73",
@@ -463,13 +463,13 @@
       "dept": "74",
       "days": 9804,
       "tm_coverage": 1.0,
-      "um_coverage": 1.0
+      "um_coverage": 0.9938800489596084
     },
     {
       "dept": "75",
       "days": 9804,
-      "tm_coverage": 1.0,
-      "um_coverage": 1.0
+      "tm_coverage": 0.979906160750714,
+      "um_coverage": 0.0
     },
     {
       "dept": "76",
@@ -559,7 +559,7 @@
       "dept": "90",
       "days": 9804,
       "tm_coverage": 1.0,
-      "um_coverage": 1.0
+      "um_coverage": 0.277233782129743
     },
     {
       "dept": "91",
@@ -570,20 +570,20 @@
     {
       "dept": "92",
       "days": 9781,
-      "tm_coverage": 1.0,
-      "um_coverage": 1.0
+      "tm_coverage": 0.9722932215519885,
+      "um_coverage": 0.0
     },
     {
       "dept": "93",
       "days": 9775,
-      "tm_coverage": 1.0,
-      "um_coverage": 1.0
+      "tm_coverage": 0.999386189258312,
+      "um_coverage": 0.0
     },
     {
       "dept": "94",
       "days": 9804,
       "tm_coverage": 1.0,
-      "um_coverage": 1.0
+      "um_coverage": 0.6852305181558548
     },
     {
       "dept": "95",
@@ -613,31 +613,31 @@
       "dept": "974",
       "days": 9805,
       "tm_coverage": 1.0,
-      "um_coverage": 1.0
+      "um_coverage": 0.9859255481896991
     },
     {
       "dept": "975",
       "days": 9804,
       "tm_coverage": 1.0,
-      "um_coverage": 1.0
+      "um_coverage": 0.9990820073439413
     },
     {
       "dept": "984",
       "days": 9805,
-      "tm_coverage": 1.0,
-      "um_coverage": 1.0
+      "tm_coverage": 0.0,
+      "um_coverage": 0.0
     },
     {
       "dept": "985",
       "days": 9805,
-      "tm_coverage": 1.0,
-      "um_coverage": 1.0
+      "tm_coverage": 0.0,
+      "um_coverage": 0.0
     },
     {
       "dept": "986",
       "days": 9805,
       "tm_coverage": 1.0,
-      "um_coverage": 1.0
+      "um_coverage": 0.9963284038755736
     },
     {
       "dept": "987",
@@ -652,5 +652,5 @@
       "um_coverage": 1.0
     }
   ],
-  "weight_zero_stations": 12
+  "weight_zero_stations": 13
 }
