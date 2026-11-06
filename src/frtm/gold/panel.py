@@ -61,7 +61,7 @@ def build() -> None:
     qa = {"rows": panel.height, "departements": panel["dept"].n_unique(), "date_min": str(panel["date"].min()), "date_max": str(panel["date"].max()),
           "metro_rows_missing_tm": int(metro["tm"].is_null().sum()), "metro_rows_missing_pop": int(metro["pop"].is_null().sum()),
           "deaths_total": int(panel["deaths"].sum()),
-          "deaths_in_silver_same_scope": int(deaths.filter(pl.col("dept").is_in(panel["dept"].unique()))["deaths"].sum())}
+          "deaths_in_silver_same_scope": int(deaths.filter(pl.col("dept").is_in(panel["dept"].unique().to_list()))["deaths"].sum())}
     QA.write_text(json.dumps(qa, indent=2))
     print(json.dumps(qa, indent=2))
 

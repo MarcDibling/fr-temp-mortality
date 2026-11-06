@@ -43,17 +43,18 @@ for (key in names(blups)) {
   year <- as.integer(format(d$date, "%Y"))
   tot_deaths <- sum(d$deaths[keep])
   for (cmp in c("cold_moderate", "cold_extreme", "heat_moderate", "heat_extreme")) {
-    s <- colSums(an[comp == cmp, , drop = FALSE])
+    s <- colSums(an[which(comp == cmp), , drop = FALSE])
     by_cell[[paste(key, cmp)]] <- data.frame(dept = bl$dept, age_band = bl$age_band, component = cmp,
       an = s[1], lo = quantile(s[-1], .025), hi = quantile(s[-1], .975), deaths = tot_deaths)
   }
   for (sd in c("cold", "heat")) {
-    m <- an[side == sd, 1]; yy <- year[side == sd]
+    sel <- which(side == sd); m <- an[sel, 1]; yy <- year[sel]
     by_year[[paste(key, sd)]] <- data.frame(dept = bl$dept, age_band = bl$age_band, side = sd,
       year = sort(unique(yy)), an = tapply(m, yy, sum))
   }
   cat(sprintf("%s %-5s cold %.0f heat %.0f of %d deaths\n", bl$dept, bl$age_band,
-              sum(an[side == "cold", 1]), sum(an[side == "heat", 1]), tot_deaths))
+              sum(an[which(side == "cold"), 1]), sum(an[which(side == "heat"), 1]), tot_deaths))
+
 }
 write.csv(do.call(rbind, by_cell), file.path(res_dir, "attributable_by_cell.csv"), row.names = FALSE)
 write.csv(do.call(rbind, by_year), file.path(res_dir, "attributable_by_year.csv"), row.names = FALSE)

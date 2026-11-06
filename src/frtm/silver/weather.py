@@ -26,6 +26,8 @@ MAX_ALTI = 800              # metres; mountain summits do not represent where pe
 BAD_QUALITY = {"2"}    # Météo-France flags: 2 = doubtful, 9 = filtered out
 DONORS = {"92": "75", "93": "75"}  # used only if a département has no usable station at all
 
+COMMUNES = Path("data/reference/communes.parquet")
+
 TEMP_COLS = ["RR", "TN", "TX", "TM", "TNTXM"]
 HUM_COLS = ["UN", "UX", "UM"]
 
@@ -97,21 +99,42 @@ def select_stations(df: pl.DataFrame) -> pl.DataFrame:
     selected = pl.concat([good.filter(~pl.col("dept").is_in(short.to_list())), fallback]).sort(["dept", "completeness"], descending=[False, True])
     return selected.with_columns(rule=pl.when(pl.col("completeness") >= MIN_COMPLETENESS).then(pl.lit("completeness>=0.90")).otherwise(pl.lit("fallback_best_available")))
 
+def population_weights(stations: pl.DataFrame) -> pl.DataFrame:
+    """Each commune is assigned to the nearest selected station of its département;
+    a station's weight is the share of the département's population it is nearest to."""
+    communes = pl.read_parquet(COMMUNES).filter(pl.col("lat").is_not_null())
+    st = stations.select("dept", "NUM_POSTE", "lat", "lon").filter(pl.col("lat").is_not_null())
+    pairs = communes.join(st, on="dept", how="inner", suffix="_st")
+    # haversine distance in km
+    to_rad = 3.141592653589793 / 180
+    dlat = (pl.col("lat_st") - pl.col("lat")) * to_rad
+    dlon = (pl.col("lon_st") - pl.col("lon")) * to_rad
+    a = (dlat / 2).sin() ** 2 + (pl.col("lat") * to_rad).cos() * (pl.col("lat_st") * to_rad).cos() * (dlon / 2).sin() ** 2
+    pairs = pairs.with_columns(km=2 * 6371 * a.sqrt().arcsin())
+    nearest = pairs.sort("km").group_by(["code"], maintain_order=True).head(1)
+    w = nearest.group_by(["dept", "NUM_POSTE"]).agg(pop_served=pl.col("pop").sum())
+    w = w.with_columns(weight=pl.col("pop_served") / pl.col("pop_served").sum().over("dept"))
+    return stations.join(w, on=["dept", "NUM_POSTE"], how="left").with_columns(
+        pop_served=pl.col("pop_served").fill_null(0), weight=pl.col("weight").fill_null(0.0))
 
 def build() -> None:
     df = load_all()
     stations = select_stations(df)
+    stations = population_weights(stations)
     STATIONS_OUT.parent.mkdir(parents=True, exist_ok=True)
     stations.write_csv(STATIONS_OUT)
 
-    kept = df.join(stations.select("dept", "NUM_POSTE"), on=["dept", "NUM_POSTE"], how="inner")
+    kept = df.join(stations.select("dept", "NUM_POSTE", "weight"), on=["dept", "NUM_POSTE"], how="inner")
+
+    def wmean(col: str) -> pl.Expr:
+        w = pl.when(pl.col(col).is_not_null()).then(pl.col("weight")).otherwise(0.0)
+        return (pl.col(col) * w).sum() / w.sum()
+
     daily = (
         kept.group_by(["date", "dept"])
-        .agg(
-            tn=pl.col("TN").mean(), tx=pl.col("TX").mean(), tm=pl.col("TM").mean(),
-            um=pl.col("UM").mean(), rr=pl.col("RR").mean(),
-            n_stations=pl.col("TM").is_not_null().sum(),
-        )
+        .agg(tn=wmean("TN"), tx=wmean("TX"), tm=wmean("TM"), um=wmean("UM"), rr=wmean("RR"),
+             n_stations=pl.col("TM").is_not_null().sum(),
+             weight_available=pl.when(pl.col("TM").is_not_null()).then(pl.col("weight")).otherwise(0.0).sum())
         .sort(["dept", "date"])
     )
     present = daily["dept"].unique().to_list()
@@ -137,6 +160,7 @@ def build() -> None:
         "rows_silver": daily.height,
         "date_min": str(daily["date"].min()), "date_max": str(daily["date"].max()),
         "coverage_2000plus": cov.to_dicts(),
+        "weight_zero_stations": int((stations["weight"] == 0).sum()),
     }
     QA.write_text(json.dumps(qa, indent=2, ensure_ascii=False))
     print(json.dumps({k: v for k, v in qa.items() if k != "coverage_2000plus"}, indent=2, ensure_ascii=False))
